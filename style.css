@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #4b2a4c;
+    
+}
+
+.header-wrapper{
+    display: flex;
+}
+.header-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+.header-name{
+    color: white;
+    font-size: 42px;
+    padding-bottom: 13px;
+}
+.header-text{
+    color: white;
+    font-size: 18px;
+
+}
+.header-img{
+    border-radius: 100%;
+    height: 250px;
+    width: 250px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+/* ------------------------------------ */
+
+.about-title{
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.about-text{
+    font-size: 17px;
+    line-height: 23px;
+    padding-bottom: 10px;
+    color: #1d1c1d;
+}
+.heading{
+    color: #4b2a4c;
+    font-size: 25px;
+}
+.main-wrapper{
+    background-color: #dcdcdc;
+}
+/* ------------------------------------- */
+.Experience-title{
+    padding-top: 50px;
+    padding-bottom: 25px; 
+}
+.Experience-wrapper{
+    display: flex;
+}
+.Experience-text{
+    font-size: 16px;
+    
+}
+.Experience-banner{
+    font-size: 16px;
+    padding-left: 115px;
+
+}
+.Experience-banner1{
+    font-size: 16px;
+    padding-left: 102px;
+}
+.Experience-content{
+    font-size: 16px;
+    padding-left: 184px;
+    padding-bottom: 10px;
+    padding-top: 6px;
+    color: #1d1c1d;;
+}
+/* --------------------------------------- */
+.Skills-title{
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.Skills-text{
+    font-size: 17px;
+    line-height: 23px;
+    padding-bottom: 10px;
+    color: #1d1c1d;
+}
+/* --------------------------------------- */
+.Language-title{
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.Language-list{
+    font-size: 17px;
+    line-height: 23px;
+    padding-bottom: 10px;
+    color: #1d1c1d;
+    
+}
+.Language-text::before{
+    content:"\25A0"; /* юникод точки */
+    color:#b9a49e;
+    font-weight: bold; /* Менять жирность */
+    display: inline-block; /* Расстояние между точкой и текстом */
+    width: 1em; 
+}
+/* ------------------------------------------ */
+
+
+
+
+
+
+.Form{
+    background-color: #edd0e4;
+}
+.Form-title{
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: center; 
+    font-size: 25px;
+}
+.Form-container{
+    display: flex;
+    justify-content: center;
+
+}
+.Form-header{
+    font-size: 16px;
+}
+.Form-header2{
+    font-size: 16px;
+}
+.Form-box{
+    display: flex;
+    justify-content: center;
+}
+.snap-box{
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+
+
+.snap{ 
+    width: 168px;
+    height: 40px;
+    background: #4b2a4c;
+    line-height: 13px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    font-size: 12px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px; 
+   
+}
+.snap:hover{
+    opacity: 0.6;
+}
+.style-imput{
+    width: 400px;
+    border: 5px solid #BEB1AE;
+    border-top: none ;
+    border-left: none;
+    border-right: none;
+    background-color:#edd0e4;
+    font-weight: bold;
+    resize: none;
+}
+.style-imput2{
+    width: 800px;
+    border: 5px solid #BEB1AE;
+    border-top: none ;
+    border-left: none;
+    border-right: none;
+    background-color:#edd0e4;
+    font-weight: bold;
+    resize: none;
+}
+
+/* ------------------------------------- */
+
+
+.Contacts{
+    text-align: center;
+    background-color: #4b2a4c;
+}
+.Contacts-title{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.Contacts-text{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+.item{
+    list-style-type: none;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.link:hover{
+    opacity: 0.6;
+}
+.alr{
+    color: #928592;
+}
